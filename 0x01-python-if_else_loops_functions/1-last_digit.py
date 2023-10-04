@@ -11,7 +11,7 @@ if number < 0:
     last_digit *= -1
 
 # code prints the output based on the conditions
-    print(f"Last digit of {number} is {last_digit} and", end=" ")
+print(f"Last digit of {number} is {last_digit} and", end=" ")
 
 if last_digit > 5:
     print("is greater than 5")
