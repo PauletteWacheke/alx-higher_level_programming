@@ -6,7 +6,7 @@ number = random.randint(-10000, 10000)
 # Code gets the last digit of the number
 last_digit = abs(number) % 10
 
-# function determines if the last digit is greater than 5, 0, or less than 6 and not 0
+# checks if the last digit is greater than 5, 0, or less than 6 and not 0
 if number < 0:
     last_digit *= -1
 
