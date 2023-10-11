@@ -3,11 +3,11 @@ if __name__ == "__main__":
 
     import sys
 
-    num_args = len(sys.argv)-1
+    num_args = len(sys.argv) - 1
     if num_args == 0:
-        print("0 Arguments")
+        print("0 Arguments.")
     elif num_args == 1:
-        print("1 Argument")
+        print("1 Argument:")
     else:
         print("{} arguments:".format(num_args))
     for i in range(num_args):
