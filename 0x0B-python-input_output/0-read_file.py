@@ -1,10 +1,6 @@
 #!/usr/bin/python3
+"""function that reads a txt file(UTF8) and prints it to stdout"""
+
 def read_file(filename=""):
-    try:
-        with open(filename, 'r', encoding='utf-8') as file:
-            for line in file:
-                print(line, end='')
-    except FileNotFoundError:
-        print(f"File '{filename}' not found.")
-    except Exception as e:
-        print(f"An error occurred: {str(e)}")
+    with open(filename, encoding='utf-8') as f:
+        print(f.read(), end='')
