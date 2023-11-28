@@ -133,4 +133,4 @@ Now use it:
 	>>> add_integer(None)
 	Traceback (most recent call last):
 	...
-	TypeError: a must be an integer 
+	TypeError: a must be an integer
