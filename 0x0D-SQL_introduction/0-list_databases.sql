@@ -1,2 +1,2 @@
-__ SQL query to list all databases
+_ _ SQL query to list all databases
 SHOW DATABASES;
