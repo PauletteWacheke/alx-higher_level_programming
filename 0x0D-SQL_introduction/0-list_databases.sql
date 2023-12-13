@@ -1,2 +1,2 @@
-_ _ SQL query to list all databases
+_ _ lists all databases of MySQL server
 SHOW DATABASES;
